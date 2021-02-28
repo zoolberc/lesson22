@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>this is an example</comment>
+    <entry key="urlOtus">https://otus.ru/</entry>
+    <entry key="emailOtus">lociwah352@1adir.com</entry>
+    <entry key="passwordOtus">Aliev123</entry>
+    <entry key="firstName">Турал</entry>
+    <entry key="firstNameLatin">Tural</entry>
+    <entry key="lastName">Алиев</entry>
+    <entry key="lastNameLatin">Aliev</entry>
+    <entry key="blogName">Tural Aliev</entry>
+    <entry key="DOB">11.01.1990</entry>
+    <entry key="Country">Россия</entry>
+    <entry key="City">Москва</entry>
+    <entry key="VK">https://vk.com/id=12345</entry>
+    <entry key="Skype">AlievTural1234</entry>
+    <entry key="English">Средний (Intermediate)</entry>
+</properties>
