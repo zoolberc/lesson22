@@ -19,7 +19,6 @@ public class MyTest extends WebDriverFactory {
                 .fillBlogName(config.blogName())
                 .fillBirthday(config.DOB())
                 .selectCountry(config.Country());
-
         Thread.sleep(500); // явное ожидание не помогает
 
         myProfilePage.selectCity(config.City())
