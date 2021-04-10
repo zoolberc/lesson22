@@ -1,12 +1,12 @@
 package pages;
 
+import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 
+import java.io.ByteArrayInputStream;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -150,6 +150,7 @@ public class MyProfilePage extends PageObject {
         assertEquals("Персональные данные", driver.findElement(By.cssSelector("h3.text")).getText());
         assertEquals(config.firstName(), name.getAttribute("value"));
         assertEquals(config.firstNameLatin(), nameLatin.getAttribute("value"));
+        Allure.addAttachment("OSinOnComparisonPage", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         assertEquals(config.lastName(), lastName.getAttribute("value"));
         assertEquals(config.lastNameLatin(), lastNameLatin.getAttribute("value"));
         assertEquals(config.blogName(), blogName.getAttribute("value"));
