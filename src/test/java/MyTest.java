@@ -38,7 +38,6 @@ public class MyTest extends WebDriverFactory {
         myProfilePage.addFirstContact(config.vkContact())
                 .addSecondContact(config.skypeContact())
                 .save();
-
     }
 
     @Test
