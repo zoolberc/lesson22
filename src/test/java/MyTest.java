@@ -40,6 +40,7 @@ public class MyTest extends WebDriverFactory {
                 .save();
     }
 
+
     @Test
     @Feature(value = "Проверка")
     @Description("Проверка заполенненных полей из предыдущего теста")
